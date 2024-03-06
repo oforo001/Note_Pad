@@ -43,6 +43,7 @@ namespace Note_Console_App
                 {
                     sw.WriteLine(note.Header);
                     Console.WriteLine("______________________________");
+                    Console.WriteLine(" ");
                     sw.WriteLine(note.Body);
                 }
                 Console.WriteLine("Note added successfully");
